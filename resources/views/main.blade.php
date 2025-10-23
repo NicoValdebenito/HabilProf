@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ asset('images/ucsc_icon.png') }}" type="image/x-icon">
     <title>UCSC - HabilProf</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <style>
         .ucsc-header {
-            background-color: #0056b3;
+            background-color: #b30600ff;
             color: white;
         }
         .sidebar {
@@ -35,7 +37,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col">
-                    <h4 class="mb-0">🏢 UCSC - HabilProf</h4>
+                    <h4 class="mb-0"><a href=""><img src="{{ asset('images/ucsc_logo.png') }}" alt="Logo" width=180></a></h4>
                 </div>
                 <div class="col-auto">
                     <span class="me-3"><i class="bi bi-person-circle"></i> Admin_DINF</span>
@@ -46,50 +48,6 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-3 col-lg-2 sidebar p-3">
-                <h6 class="text-uppercase text-muted mt-3">ACADÉMICO</h6>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-person me-2"></i>Portal Estudiante</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-journal-plus me-2"></i>Inscripción Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-gear me-2"></i>Servicios</a>
-                    </li>
-                </ul>
-
-                <h6 class="text-uppercase text-muted mt-4">APLICACIONES ACADÉMICAS</h6>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-clock-history me-2"></i>Histórico</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-file-text me-2"></i>Certificaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-book me-2"></i>Biblioteca</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-briefcase me-2"></i>Trabajos en Curso</a>
-                    </li>
-                </ul>
-
-                <h6 class="text-uppercase text-muted mt-4">CALENDARIO ACADÉMICO 2025</h6>
-                <div class="small">
-                    <p class="mb-1"><strong>Mar 1:</strong> Inicio Semestre</p>
-                    <p class="mb-1"><strong>Mar 15:</strong> Último retiro</p>
-                    <p class="mb-1"><strong>Jul 15:</strong> Exámenes</p>
-                </div>
-
-                <div class="mt-4 small text-muted">
-                    <strong>Actualización:</strong> 27-02-2025 15:38
-                </div>
-            </div>
-
             <!-- Main Content -->
             <div class="col-md-9 col-lg-10 p-4">
                 <div class="d-flex justify-content-between align-items-center mb-4">
